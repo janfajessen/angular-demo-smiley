@@ -1,0 +1,13 @@
+<div>
+    <input [value]="text"
+           (input)="handleChange($event.target.value)">
+
+    <input [(ngModel)]="text">
+
+    <div on-click="changeEmoji()">
+     {{emoji}}
+     {{text}}
+    </div>
+
+
+</div>
